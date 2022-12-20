@@ -1,5 +1,7 @@
 # Barotrauma Mod: Router Component
 
+[Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2904379228)
+
 This mod ads a new `ItemComponent` for mapping input signals to it's matching
 output in the channels the component is currently on  to the game as well
 as one implementations of each of the three possible configurations of that
@@ -116,9 +118,8 @@ doesn't seem like it would be worth the effort. This way the code generating
 the grouping dict can stay nice and simple, and it's just as easy to read in
 XML definitions.
 
-> sg -> signal index (zero based)
+> sg -> signal index (zero based)  
 > ch -> channel index (zero based)
-
 
 | Layout   | Input Names   | Output  Input Names |
 |----------|---------------|---------------------|
@@ -128,3 +129,16 @@ XML definitions.
 
 [ic link]:<https://regalis11.github.io/BaroModDoc/ItemComponents/ItemComponent.html>
 [files]:<./Items/routercomponent.xml>
+
+
+## Licensing
+
+Any usage of this package or substancial portions of the packahe in connection
+with Barotrauma or accompanying material offered by Undertow Games is subject to
+their End User License Agreement. Certain aspects of this package such as
+maintenance tools may be licensed under MIT or an equivalent license. For
+details, look for explicit license declaration at the top of files, consult the
+[license] document contained within the package, or contact the package
+maintainers.
+
+[license]:<./LICENSE>
