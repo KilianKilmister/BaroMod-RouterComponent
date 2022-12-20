@@ -1,0 +1,141 @@
+This Modification/Derivative Work/Auxiliary Content (the "Package") and its
+components and accompanying documentation are licensed as follows:
+
+"""
+Copyright Undertow Games
+
+All content created by copying, direct modification of or as
+direct derivative of Barotrauma or any of its supporting material as
+provided by Undertow Games (the "Source Material") is subject to the
+terms and conditions outlined in the End User License Agreement of the
+Source Material these are based on.
+
+EULA: https://github.com/Regalis11/Barotrauma/blob/master/EULA.txt
+
+The Package and any substantial portion of the Package SHALL be considered as
+"attached" to Barotrauma, or any of its supporting material as
+provided by Undertow Games (the "Attached Content") if:
+
+- It contains Source Material or modifications or derivative works to/of the
+  Source Material, or contains modifications or derivative works to/of other
+  Attached Content.
+- It contains patterns or descriptions (in data, writing or otherwise) from
+  which a substantial portion of the patterns or descriptions present in the
+  Source Material could be reconstructed.
+  - This MAY INCLUDE overarching class structure or document structure present
+    in the Source Material which can reasonably be considered an original
+    creation by Undertow Games.
+    This DOES NOT EXTEND to:
+    - Interfaces - function, data, or otherwise
+    - APIs
+    - Non-proprietary protocols - communication, serialization,
+      content/storage/memory management or similar
+  - This DOES NOT INCLUDE:
+    - File/Project structure or similar.
+    - Format/Formatting conventions - coding, documentation, logging, bundling,
+      ordering, or similar.
+    - Imitation and reappropriation on the basis of efficiency,
+      effectiveness, aesthetics, availability where reasonable effort to
+      avoid infringement exists.
+    - Any aspect not directly related to content, including but not limited to
+      governance, administration, guidelines, business practice, content or
+      community moderation, communication, distribution or similar.
+- This list SHALL NOT be considered exhaustive, definite or precise, and SHALL
+  NOT be used to justify claims or actions restricting the free use and
+  distribution of any original contributions, tools or supporting documents
+  contained within the Package.
+
+Undertow Games retains the copyright to the Package as a whole, and to any
+substantial portions of the Package that can reasonably be
+considered AttachedContent.
+
+The Contributors of the Package hereby grant to Undertow Games the right to free
+use of the Package, its components and associated documentation contained
+within to the extent described in the EULA of the Source Material.
+
+Undertow Games is hereby permitted to copy, sell, modify, and distribute the
+Package, its components and associated documentation. Additionally,
+Undertow Games MAY relicense any copies of the Package it acquired, and
+distribute them under the new license.
+
+The Contributors ask Undertow Games to maintain a public record of the names of
+endusers/modders/etc. who voluntarily and without compensation have made a
+substantial content contribution Barotrauma or whose work was an integral part
+to such. This request SHALL BE considered NON-BINDING, and (non-)compliance may
+not be used in any context relating to this license, or to make any assessments
+about the Contributors or Undertow Games.
+
+THE PACKAGE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS OF ITS COMPONENTS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE PACKAGE OR THE USE OR OTHER
+DEALINGS IN THE PACKAGE.
+"""
+
+Tools contained in the Package whose functions are related to
+maintenance, organization (including formatting, linting, and similar),
+building, templating, or similar, their documentation, or any of their
+supporting documents MAY BE licensed under a separate license. It SHOULD be
+assumed any tool and document fitting the above description which DOES NOT contain
+explicit license declaration is licensed under MIT or an equivalent license:
+
+"""
+Copyright Package contributors. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+"""
+
+All content not created by copying, direct modification or as direct derivative of the
+Source Material or any tools and documents covered by the preceding
+section (the "Original Contribution") is licensed as follows:
+
+"""
+Copyright Package contributors. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the Package and its accompanying documentation files to deal in the Original
+Contributions without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Original Contributions, and to permit persons to whom the Package
+is furnished to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice SHALL be included in
+   all copies or substantial portions of the Package.
+   1.1. All copies of the Package or substantial portions of the
+        Package that can be reasonably considered Attached Content SHALL BE
+        accompanied by the notice of attribution and conditions regarding
+        Undertow Games located above this license.
+   1.2. If the condition specified in 1.1. does not apply, the body of this
+        license MAY be replaced with the body of the MIT license.
+2. If a substantial portion of the Package or its Original Contributions can
+   reasonably be considered Attached Content, the rights of Undertow Games SHALL
+   not be infringed.
+
+THE PACKAGE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE PACKAGE OR THE USE OR OTHER DEALINGS
+IN THE PACKAGE.
+""""
+
+This license can be found at: https://github.com/KilianKilmister/BaroMod-RouterComponent/blob/master/LICENSE

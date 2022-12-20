@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Router Component" modversion="1.0.1" corepackage="False" steamworkshopid="2904379228" gameversion="0.20.16.1">
+  <Item file="%ModDir%/Items/routercomponent.xml" />
+</contentpackage>

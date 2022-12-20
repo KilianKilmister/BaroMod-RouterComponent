@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <Item name="Router Component (6 Channels)" identifier="routercomponent6channel" category="Electrical" Tags="smallitem,signal,logic" maxstacksize="8" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+    <!-- copy paste from relaycomponent-->
+    <Price baseprice="100" minleveldifficulty="15">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" sold="false"/>
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" multiplier="0.9" />
+    </Price>
+    <PreferredContainer primary="engcab"/>
+    <PreferredContainer secondary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" amount="1" spawnprobability="0.05" />
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+      <Item identifier="copper" />
+      <Item identifier="tin" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="electrical" level="20" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="tin" />
+    </Fabricate>
+    <!-- original -->
+    <InventoryIcon texture="%ModDir%/Items/routercomponent.icon.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="routercomponent.png" depth="0.8" sourcerect="0,0,32,32" origin="0.5,0.5" canflipx="false" />
+    <RouterComponent canbeselected="true" vulnerabletoemp="false" layout="Single" />
+    <!-- copy paste from relaycomponent-->
+    <Body width="31" height="25" density="15" />
+    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem items="wrench" type="Equipped" />
+    </Holdable>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <!-- original -->
+      <!-- control -->
+      <input name="set_state" displayname="connection.setstate" />
+      <input name="prev_state" displayname="prev_state" />
+      <input name="next_state" displayname="next_state" />
+
+      <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
+      <!-- data -->
+      <input name="signal_in" displayname="connection.signalin" />
+
+      <output name="signal_out0" displayname="connection.signaloutx~[num]=A" />
+      <output name="signal_out1" displayname="connection.signaloutx~[num]=B" />
+      <output name="signal_out2" displayname="connection.signaloutx~[num]=C" />
+      <output name="signal_out3" displayname="connection.signaloutx~[num]=D" />
+      <output name="signal_out4" displayname="connection.signaloutx~[num]=E" />
+      <output name="signal_out5" displayname="connection.signaloutx~[num]=F" />
+    </ConnectionPanel>
+  </Item>
+  <Item name="Router Component (3 Channels)" identifier="routercomponent3channel" category="Electrical" Tags="smallitem,signal,logic" maxstacksize="8" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+    <!-- copy paste from relaycomponent-->
+    <Price baseprice="100" minleveldifficulty="15">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" sold="false"/>
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" multiplier="0.9" />
+    </Price>
+    <PreferredContainer primary="engcab"/>
+    <PreferredContainer secondary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" amount="1" spawnprobability="0.05" />
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+      <Item identifier="copper" />
+      <Item identifier="tin" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="electrical" level="20" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="tin" />
+    </Fabricate>
+    <!-- original -->
+    <InventoryIcon texture="%ModDir%/Items/routercomponent.icon.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="routercomponent.png" depth="0.8" sourcerect="32,0,32,32" origin="0.5,0.5" canflipx="false" />
+
+    <RouterComponent canbeselected="true" vulnerabletoemp="false" layout="Double" />
+    <!-- copy paste from relaycomponent-->
+    <Body width="31" height="25" density="15" />
+    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem items="wrench" type="Equipped" />
+    </Holdable>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <!-- original -->
+      <!-- control -->
+      <input name="set_state" displayname="connection.setstate" />
+      <input name="prev_state" displayname="prev_state" />
+      <input name="next_state" displayname="next_state" />
+
+      <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
+      <!-- data -->
+      <input name="signal_in0" displayname="connection.signalinx~[num]=0" />
+      <input name="signal_in1" displayname="connection.signalinx~[num]=1" />
+
+      <output name="signal_out0_0" displayname="connection.signaloutx~[num]=0A" />
+      <output name="signal_out0_1" displayname="connection.signaloutx~[num]=1A" />
+      <output name="signal_out1_0" displayname="connection.signaloutx~[num]=0B" />
+      <output name="signal_out1_1" displayname="connection.signaloutx~[num]=1B" />
+      <output name="signal_out2_0" displayname="connection.signaloutx~[num]=0C" />
+      <output name="signal_out2_1" displayname="connection.signaloutx~[num]=1C" />
+    </ConnectionPanel>
+  </Item>
+  <Item name="Router Component (2 Channels)" identifier="routercomponent2channel" category="Electrical" Tags="smallitem,signal,logic" maxstacksize="8" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+    <!-- copy paste from relaycomponent-->
+    <Price baseprice="100" minleveldifficulty="15">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" sold="false"/>
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" multiplier="0.9" />
+    </Price>
+    <PreferredContainer primary="engcab"/>
+    <PreferredContainer secondary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" amount="1" spawnprobability="0.05" />
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+      <Item identifier="copper" />
+      <Item identifier="tin" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="electrical" level="20" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="tin" />
+    </Fabricate>
+    <!-- original -->
+    <InventoryIcon texture="%ModDir%/Items/routercomponent.icon.png" sourcerect="128,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="routercomponent.png" depth="0.8" sourcerect="64,0,32,32" origin="0.5,0.5" canflipx="false" />
+
+    <RouterComponent canbeselected="true" vulnerabletoemp="false" layout="Triple" />
+    <!-- copy paste from relaycomponent-->
+    <Body width="31" height="25" density="15" />
+    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem items="wrench" type="Equipped" />
+    </Holdable>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <!-- original -->
+      <!-- control -->
+      <input name="set_state" displayname="connection.setstate" />
+      <input name="prev_state" displayname="prev_state" />
+      <input name="next_state" displayname="next_state" />
+
+      <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
+      <!-- data -->
+      <input name="signal_in0" displayname="connection.signalinx~[num]=0" />
+      <input name="signal_in1" displayname="connection.signalinx~[num]=1" />
+      <input name="signal_in2" displayname="connection.signalinx~[num]=2" />
+
+      <output name="signal_out0_0" displayname="connection.signaloutx~[num]=0A" />
+      <output name="signal_out0_1" displayname="connection.signaloutx~[num]=1A" />
+      <output name="signal_out0_2" displayname="connection.signaloutx~[num]=2A" />
+      <output name="signal_out1_0" displayname="connection.signaloutx~[num]=0B" />
+      <output name="signal_out1_1" displayname="connection.signaloutx~[num]=1B" />
+      <output name="signal_out1_2" displayname="connection.signaloutx~[num]=2B" />
+    </ConnectionPanel>
+  </Item>
+</items>
