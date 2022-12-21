@@ -133,7 +133,7 @@ XML definitions.
 
 ## Licensing
 
-Any usage of this package or substancial portions of the packahe in connection
+Any usage of this package or substantial portions of the package in connection
 with Barotrauma or accompanying material offered by Undertow Games is subject to
 their End User License Agreement. Certain aspects of this package such as
 maintenance tools may be licensed under MIT or an equivalent license. For
